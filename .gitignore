@@ -1,0 +1,59 @@
+# Maven / Java build output
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# Local SQLite database (created on first run)
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Environments / secrets
+.venv/
+venv/
+env/
+.env
+!.env.example
+
+# Python (just in case)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+
+# Data / model artifacts
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.npy
+*.npz
+*.faiss
+*.mat
+*.zip
+*.mp4
