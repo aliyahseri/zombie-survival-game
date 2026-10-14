@@ -13,12 +13,12 @@ A complete small game with a full app around it: accounts, character selection, 
 
 Features (all present in the code):
 
-- **Accounts**: sign up and log in. Passwords are stored as SHA-256 hashes in SQLite (see Known issues).
+- **Accounts**: sign up and log in. Passwords are stored as SHA-256 hashes in SQLite.
 - **Character selection**: 4 animated characters with different speed, health and damage. Three have a special ability on **E** (7 s active, 14 s cooldown):
   - **Jax**: Shield (+200 HP, up to 300, for 7 s)
   - **Vi**: Triple Shot (three piercing bullets in a spread)
   - **Flash**: Speed Boost
-  - **Peter**: listed with a `HEALTH` ability in the database, but the ability is not implemented yet (see Known issues)
+  - **Peter**: Healing ability.
 - **Zombie AI**: each zombie runs **A\*** (4-directional, Manhattan heuristic, `com.zombie.ai.AStarPathfinder`) on a 30×20 tile grid and recalculates its path every 30 frames.
 - **Waves and difficulty** (`Constants.java`):
 
