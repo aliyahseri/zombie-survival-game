@@ -1,7 +1,7 @@
 # Zombie Survival Game
 
 ## Introduction
-This project is a top-down 2D zombie survival shooter built with Java and JavaFX. Zombies hunt the player using A* pathfinding, and waves get harder with each difficulty level. Players sign up, choose one of 4 characters with special abilities, and compete on a leaderboard saved in a local SQLite database.
+This project is a top-down 2D zombie survival shooter built with Java and JavaFX. Zombies hunt the player using A* pathfinding, and waves get harder with each difficulty level. Players sign up, choose one of 4 characters, and compete on a leaderboard saved in a local SQLite database.
 
 ## Features
 * A* pathfinding for zombie movement
